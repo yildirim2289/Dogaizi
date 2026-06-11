@@ -38,3 +38,6 @@ Doğal veya kültürel alanların her birinde bulunan "Konum Görüntüle" buton
 ### ⚡ Hızlı ve Kullanıcı Dostu Arayüz
 
 HTML, CSS ve JavaScript kullanılarak geliştirilen proje; sade tasarımı, kolay kullanılabilir menü yapısı ve akıcı sayfa geçişleri sayesinde kullanıcıların aradıkları bilgilere kısa sürede ulaşabilmelerine olanak tanımaktadır.
+
+## Anasayfa
+<img width="1428" height="866" alt="Image" src="https://github.com/user-attachments/assets/702aee23-443a-4c75-abd5-0c7566205585" />
