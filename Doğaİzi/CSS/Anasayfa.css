@@ -1,0 +1,232 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --primary-color: #1b3022; 
+    --accent-color: #c9a66b;  
+    --text-color: #2c2c2c;
+    --bg-color: #fafafa;      
+    --white: #ffffff;
+}
+
+/* Genel Sıfırlama */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.8;
+}
+
+.ust-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-kapsayici {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.menu-linkleri a {
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu-linkleri a:hover, 
+.menu-linkleri a.active {
+    color: #c9a66b;
+}
+
+.tanitim-alani {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                url('../gorseller/Tanitim_Alani.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+}
+
+.tanitim-alani h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 20px;
+}
+
+.tanitim-alani p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.bilgi-bolumu {
+    max-width: 1100px;
+    margin: -60px auto 100px; 
+    padding: 0 5%;
+}
+
+.kart-hiza {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.bilgi-karti {
+    background: var(--white);
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
+
+.vurgu-cizgisi {
+    width: 40px;
+    height: 3px;
+    background-color: var(--accent-color);
+    margin-bottom: 30px;
+}
+
+.bilgi-karti h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.alt-alan {
+    background: var(--white);
+    padding: 80px 5% 40px;
+    border-top: 1px solid #eee;
+}
+
+.alt-alan-kapsayici {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.iletisim-grubu-hiza {
+    display: flex;
+    gap: 80px;
+}
+
+.iletisim-grubu h4 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.iletisim-grubu p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.alt-bilgi {
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding-top: 30px;
+    border-top: 1px solid #555;
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+.arama-kutusu {
+    position: relative;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+#sehirAra {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#sonucListesi {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 5px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+#sonucListesi li a {
+    display: block;
+    padding: 10px 20px;
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align: left;
+    transition: 0.2s;
+}
+
+#sonucListesi li a:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 768px) {
+    .menu-kapsayici { flex-direction: column; gap: 15px; }
+    .menu-linkleri a { margin: 0 10px; font-size: 0.7rem; }
+    .tanitim-alani { height: 60vh; }
+    .alt-alan-kapsayici { flex-direction: column; text-align: center; }
+    .iletisim-grubu-hiza { flex-direction: column; gap: 40px; align-items: center; }
+}

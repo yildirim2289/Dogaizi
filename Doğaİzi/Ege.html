@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğaİzi</title>
+    <link rel="icon" href="gorseller/Logo.png">
+    <link rel="stylesheet" href="CSS/Ege.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="ust-menu">
+        <div class="menu-kapsayici">
+            <div class="logo" style="display: flex; align-items: center; gap: 10px;"> <img src="gorseller/Logo.png" width=50px height=50px>DOĞAİZİ</div>
+            <div class="menu-linkleri">
+                <a href="Anasayfa.html" class="active">Ana Sayfa</a>
+                <a href="Akdeniz.html">Akdeniz</a>
+                <a href="Ege.html">Ege</a>
+                <a href="Marmara.html">Marmara</a>
+                <a href="Karadeniz.html">Karadeniz</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="arkaplan"></div>
+
+    <div class="wrapper">
+        <header>
+            <h1>EGE'Yİ KEŞFET</h1>
+            <p>İzmir, Aydın ve Muğla'nın saklı kalmış cennet köşeleri...</p>
+            <div class="sehir-sekme-grubu">
+                <button class="sekme-butonu" onclick="sehirAc(event, 'izmir')">İZMİR</button>
+                <button class="sekme-butonu" onclick="sehirAc(event, 'aydin')">AYDIN</button>
+                <button class="sekme-butonu" onclick="sehirAc(event, 'mugla')">MUĞLA</button>
+            </div>
+            <div class="arama-kutusu">
+            <input type="text" id="sehirAra" placeholder="🔎Şehir Arayın...">
+            <ul id="sonucListesi"></ul>
+            </div>
+        </header>
+
+        <main id="content-area">
+            <div class="hosgeldiniz-kutusu">
+                <h2>Hoş Geldiniz</h2>
+                <p>Ege'nin turkuaz sularını ve derin tarihini keşfetmek için yukarıdan bir şehir seçin.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="JavaScript/Ege.js"></script>
+</body>
+</html>

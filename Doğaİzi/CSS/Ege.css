@@ -1,0 +1,224 @@
+.ust-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-kapsayici {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif; /* body ile aynı */
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.menu-linkleri a {
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu-linkleri a:hover, 
+.menu-linkleri a.active {
+    color: #c9a66b;
+}
+
+:root {
+    --deep-green: #102a1d;
+    --bright-green: #2ecc71;
+    --white: #ffffff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--deep-green);
+    color: var(--white);
+    overflow-x: hidden;
+}
+
+.arkaplan {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(rgba(50, 52, 54, 0.35), rgba(40, 42, 44, 0.55)),
+    url('../resim/Arkaplan.png') no-repeat center center/cover;
+    z-index: -2;
+}
+
+header {
+    text-align: center;
+    padding: 100px 20px 40px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.sehir-sekme-grubu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.sekme-butonu {
+    background: rgba(255,255,255,0.1);
+    border: 2px solid var(--white);
+    color: var(--white);
+    padding: 15px 40px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.sekme-butonu:hover, .sekme-butonu.active {
+    background: var(--white);
+    color: var(--deep-green);
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.kategori-baslik {
+    font-size: 2rem;
+    margin: 40px 0 20px;
+    border-bottom: 2px solid var(--bright-green);
+    display: inline-block;
+}
+
+.rota-karti {
+    display: flex;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.rota-karti-resmi {
+    width: 400px;
+    object-fit: cover;
+}
+
+.rota-karti-govde {
+    padding: 30px;
+    flex: 1;
+}
+
+.rota-karti h3 {
+    font-size: 1.8rem;
+    color: var(--deep-green);
+    margin-bottom: 15px;
+}
+
+.alt-baslik {
+    font-weight: 700;
+    color: #2c3e50;
+    display: block;
+    margin-top: 15px;
+}
+
+.konum-butonu {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: var(--deep-green);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.konum-butonu:hover { background: var(--bright-green); }
+
+.hosgeldiniz-kutusu {
+    text-align: center;
+    padding: 50px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.arama-kutusu {
+    position: relative;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+#sehirAra {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#sonucListesi {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 5px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+#sonucListesi li a {
+    display: block;
+    padding: 10px 20px;
+    color: #1b3022;
+    text-decoration: none;
+    text-align: left;
+    transition: 0.2s;
+}
+
+#sonucListesi li a:hover {
+    background: #c9a66b;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .rota-karti { flex-direction: column; }
+    .rota-karti-resmi { width: 100%; height: 250px; }
+}
