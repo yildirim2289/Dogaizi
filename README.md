@@ -1,4 +1,4 @@
-##Doğaİzi Proje Tanıtımı:
+## Doğaİzi Proje Tanıtımı:
 Türkiye'nin farklı bölgelerinde yer alan tarihi, kültürel ve doğal güzellikleri keşfetmek isteyen kullanıcılar için geliştirilmiş interaktif bir gezi rehberi uygulamasıdır. Proje; HTML, CSS ve JavaScript kullanılarak tasarlanmış olup kullanıcı dostu arayüzü sayesinde ziyaretçilere hızlı ve kolay bir keşif deneyimi sunmaktadır.
 
 Uygulama içerisinde Türkiye'nin dört önemli bölgesi olan Akdeniz, Karadeniz, Ege ve Marmara bölgeleri yer almaktadır. Her bölge, kendine özgü şehirleri ve bu şehirlerde bulunan tarihi, kültürel ve doğal alanları içermektedir.
