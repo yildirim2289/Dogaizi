@@ -1,4 +1,4 @@
-## <img width="60" height="60" alt="Image" margin-right="10" src="https://github.com/user-attachments/assets/307a2457-772f-44e5-adbb-158c0ec39012" /> Doğaİzi Proje Tanıtımı:
+## <img width="60" height="60" alt="Image" margin-right="60" src="https://github.com/user-attachments/assets/307a2457-772f-44e5-adbb-158c0ec39012" /> Doğaİzi Proje Tanıtımı:
 Türkiye'nin farklı bölgelerinde yer alan tarihi, kültürel ve doğal güzellikleri keşfetmek isteyen kullanıcılar için geliştirilmiş interaktif bir gezi rehberi uygulamasıdır. Proje; HTML, CSS ve JavaScript kullanılarak tasarlanmış olup kullanıcı dostu arayüzü sayesinde ziyaretçilere hızlı ve kolay bir keşif deneyimi sunmaktadır.
 
 Uygulama içerisinde Türkiye'nin dört önemli bölgesi olan Akdeniz, Karadeniz, Ege ve Marmara bölgeleri yer almaktadır. Her bölge, kendine özgü şehirleri ve bu şehirlerde bulunan tarihi, kültürel ve doğal alanları içermektedir.
