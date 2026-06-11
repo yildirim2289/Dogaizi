@@ -1,13 +1,13 @@
-## <img width="434" height="437" alt="Image" src="https://github.com/user-attachments/assets/307a2457-772f-44e5-adbb-158c0ec39012" /> Doğaİzi Proje Tanıtımı:
+## <img width="50" height="50" alt="Image" src="https://github.com/user-attachments/assets/307a2457-772f-44e5-adbb-158c0ec39012" /> Doğaİzi Proje Tanıtımı:
 Türkiye'nin farklı bölgelerinde yer alan tarihi, kültürel ve doğal güzellikleri keşfetmek isteyen kullanıcılar için geliştirilmiş interaktif bir gezi rehberi uygulamasıdır. Proje; HTML, CSS ve JavaScript kullanılarak tasarlanmış olup kullanıcı dostu arayüzü sayesinde ziyaretçilere hızlı ve kolay bir keşif deneyimi sunmaktadır.
 
 Uygulama içerisinde Türkiye'nin dört önemli bölgesi olan Akdeniz, Karadeniz, Ege ve Marmara bölgeleri yer almaktadır. Her bölge, kendine özgü şehirleri ve bu şehirlerde bulunan tarihi, kültürel ve doğal alanları içermektedir.
 
-### Kapsanan Bölgeler ve Şehirler
-Akdeniz Bölgesi: Kahramanmaraş, Antalya, Mersin
-Karadeniz Bölgesi: Trabzon, Rize, Artvin
-Ege Bölgesi: İzmir, Aydın, Muğla
-Marmara Bölgesi: Çanakkale, Bursa, İstanbul
+## 🎯 Kapsanan Bölgeler ve Şehirler
+### Akdeniz Bölgesi: Kahramanmaraş, Antalya, Mersin
+### Karadeniz Bölgesi: Trabzon, Rize, Artvin
+### Ege Bölgesi: İzmir, Aydın, Muğla
+### Marmara Bölgesi: Çanakkale, Bursa, İstanbul
 
 ## ✨ Proje Özellikleri
 
@@ -17,11 +17,11 @@ Uygulama içerisinde yer alan arama çubuğu sayesinde kullanıcılar ziyaret et
 
 ### 🗺️ Bölge Bazlı Keşif Deneyimi
 
-Kullanıcılar yalnızca şehir adı aratarak değil, aynı zamanda Türkiye'nin dört farklı bölgesini adım adım keşfederek de istedikleri destinasyona ulaşabilirler. Menü üzerinden öncelikle Akdeniz, Karadeniz, Ege veya Marmara bölgesi seçilir. Ardından seçilen bölgeye ait şehirler görüntülenir ve kullanıcı ilgisini çeken şehri seçerek detaylı içeriklere erişebilir.
+Kullanıcılar yalnızca şehir adı aratarak değil, aynı zamanda menü üzeründen Türkiye'nin dört farklı bölgesinden birini seçerek bölge bazlı keşiflerine başlayabilirler. Menü üzerinden öncelikle Akdeniz, Karadeniz, Ege veya Marmara bölgelerinden birisi seçilir. Ardından seçilen bölgeye ait şehirler görüntülenir ve kullanıcı ilgisini çeken şehri seçerek detaylı içeriklere erişebilir.
 
 ### 🏙️ Şehirlere Özel İçerikler
 
-Her şehir için özel olarak hazırlanmış sayfalarda o bölgenin öne çıkan doğal ve kültürel güzellikleri tanıtılmaktadır. Böylece kullanıcılar şehirlerin yalnızca isimlerini değil, aynı zamanda turistik ve kültürel değerlerini de inceleyebilmektedir.
+Her şehir için özel olarak hazırlanmış sayfalarda o bölgenin öne çıkan doğal ve kültürel güzellikleri tanıtılmaktadır. Böylece kullanıcılar şehirlerin turistik ve kültürel değerlerini de inceleyebilmektedir.
 
 ### 🌿 Doğal Güzelliklerin Tanıtımı
 
@@ -33,7 +33,7 @@ Her şehir içerisinde bulunan tarihi yapılar, müzeler, kaleler, antik kentler
 
 ### 📍 Konum Görüntüleme Desteği
 
-Doğal veya kültürel alanların her birinde bulunan "Konum Görüntüle" butonu sayesinde kullanıcılar seçtikleri destinasyonun harita üzerindeki konumuna kolayca erişebilirler. Bu özellik ziyaret edilmek istenen yerlerin ulaşım planlamasını kolaylaştırmakta ve kullanıcıların konumu hızlı bir şekilde görüntülemesini sağlamaktadır.
+Doğal veya kültürel alanların her birinde bulunan "Konum Görüntüle" butonu sayesinde kullanıcılar seçtikleri doğal veya kültürel alanın harita üzerindeki konumuna kolayca erişebilirler. Bu özellik ziyaret edilmek istenen yerlerin ulaşım planlamasını kolaylaştırmakta ve kullanıcıların konumu hızlı bir şekilde görüntülemesini sağlamaktadır.
 
 ### ⚡ Hızlı ve Kullanıcı Dostu Arayüz
 
